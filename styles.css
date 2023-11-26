@@ -1,9 +1,87 @@
-body{
-    background-color: aqua;
+body {
+    margin: 0px;
+    font-family: "Roboto", sans-serif;
+    display:flex;
+    height: 100vh;
+}
+
+
+aside {
+    width: 25rem;
+    border: solid 1px #A491D2
+}
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     
-    }
-    .container{
-        display: flex;
-        flex-direction: column; 
-    }
+    
    
+}
+
+img {
+    height: 3rem;
+}
+
+.nuevo-chat-div{
+    justify-content: center;
+    padding: 0.8rem;
+}
+
+.nuevo-chat-div.btn {
+    padding: 6px;
+}
+
+.btn-primary{
+    background-color: #A491D2;
+    color: white;
+    border: 10px;
+    width: 13rem;
+    height: 3rem;
+}
+
+.btn{
+    border: 0;
+    padding: 0.8rem;
+    cursor: pointer;
+}
+
+.h5, p{
+    margin: 1px;
+}
+
+.user-card{
+    display: flex;
+    border-top: solid 1px grey;
+    padding: 22px;
+}
+
+.user-card img{
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.user-card-principal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-card-principal.left{
+    display: flex;
+
+}
+.fa-solid {
+    font-size: 20px;
+    margin: 20px;
+}
+.fa-regular{
+    font-size: 20px;
+}
+
+
+
+
+    
